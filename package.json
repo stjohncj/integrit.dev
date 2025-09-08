@@ -7,7 +7,11 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "serve": "vite preview"
+    "serve": "vite preview",
+    "deploy": "./deploy.sh",
+    "deploy:build": "npm run build && firebase deploy",
+    "firebase:login": "firebase login",
+    "firebase:init": "firebase use integrit-dev"
   },
   "keywords": [
     "web development",
@@ -16,7 +20,7 @@
     "node.js",
     "software consulting"
   ],
-  "author": "Integrit",
+  "author": "IntegritDev",
   "license": "MIT",
   "devDependencies": {
     "vite": "^5.0.0",
