@@ -1,0 +1,26 @@
+{
+  "name": "integrit-dev",
+  "version": "1.0.0",
+  "description": "Marketing site for IntegritDev - Web Application Software Company",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "serve": "vite preview"
+  },
+  "keywords": [
+    "web development",
+    "ruby on rails",
+    "react",
+    "node.js",
+    "software consulting"
+  ],
+  "author": "Integrit",
+  "license": "MIT",
+  "devDependencies": {
+    "vite": "^5.0.0",
+    "@vitejs/plugin-legacy": "^5.0.0"
+  },
+  "dependencies": {}
+}

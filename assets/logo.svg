@@ -1,0 +1,41 @@
+<svg width="200" height="50" viewBox="0 0 200 50" xmlns="http://www.w3.org/2000/svg">
+  <!-- Hexagon with code brackets design -->
+  <g id="logo-icon">
+    <!-- Outer hexagon -->
+    <path d="M 25 5 L 40 14 L 40 31 L 25 40 L 10 31 L 10 14 Z" 
+          fill="none" 
+          stroke="#2563eb" 
+          stroke-width="2"/>
+    
+    <!-- Code brackets inside -->
+    <path d="M 18 18 L 13 22.5 L 18 27" 
+          fill="none" 
+          stroke="#2563eb" 
+          stroke-width="2" 
+          stroke-linecap="round" 
+          stroke-linejoin="round"/>
+    
+    <path d="M 32 18 L 37 22.5 L 32 27" 
+          fill="none" 
+          stroke="#10b981" 
+          stroke-width="2" 
+          stroke-linecap="round" 
+          stroke-linejoin="round"/>
+    
+    <!-- Center slash -->
+    <path d="M 27 17 L 23 28" 
+          fill="none" 
+          stroke="#1f2937" 
+          stroke-width="2" 
+          stroke-linecap="round"/>
+  </g>
+  
+  <!-- Company name -->
+  <text x="50" y="30" 
+        font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" 
+        font-size="24" 
+        font-weight="700" 
+        fill="#1f2937">
+    Integrit<tspan fill="#2563eb">Dev</tspan>
+  </text>
+</svg>

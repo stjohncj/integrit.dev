@@ -1,0 +1,28 @@
+# robots.txt for https://integrit.dev
+
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /private/
+Disallow: /*.json$
+Disallow: /api/
+
+# Sitemap location
+Sitemap: https://integrit.dev/sitemap.xml
+
+# Crawl-delay for bots that respect it
+User-agent: *
+Crawl-delay: 1
+
+# Allow search engines to index everything
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
