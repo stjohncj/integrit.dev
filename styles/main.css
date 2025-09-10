@@ -465,13 +465,47 @@ body {
         font-size: 1.25rem;
     }
     
+    .hero-list li {
+        font-size: 1rem;
+        padding-left: 1.25rem;
+    }
+    
     .expertise-content {
         grid-template-columns: 1fr;
         gap: 2rem;
     }
     
+    .expertise-text {
+        padding: 0 1rem;
+    }
+    
+    .expertise-text h3 {
+        font-size: 1.5rem;
+    }
+    
+    .expertise-text p {
+        font-size: 1rem;
+        word-wrap: break-word;
+    }
+    
+    .expertise-list {
+        padding-left: 0;
+    }
+    
+    .expertise-list li {
+        font-size: 0.95rem;
+        padding-left: 1.5rem;
+        padding-right: 0.5rem;
+        word-wrap: break-word;
+    }
+    
     .expertise-stats {
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+    
+    .stat {
+        padding: 1.5rem 1rem;
     }
     
     .footer-content {
@@ -481,5 +515,13 @@ body {
     
     .process-grid {
         grid-template-columns: 1fr;
+    }
+    
+    .services-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .section-title {
+        font-size: 2rem;
     }
 }
